@@ -10,7 +10,7 @@ def main():
 
     root = Tk()
     root.withdraw()
-    prompt = askstring("", "Name For Folder?")
+    prompt = askstring("Folder", "Name For Folder?")
     
     files = sys.argv
     files = files[1:]
